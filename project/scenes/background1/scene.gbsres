@@ -7,15 +7,82 @@
   "tilesetId": "",
   "width": 20,
   "height": 18,
-  "type": "TOPDOWN",
+  "type": "LOGO",
   "paletteIds": [],
   "spritePaletteIds": [],
   "collisions": "",
   "autoFadeSpeed": 1,
   "symbol": "scene_1",
-  "x": 154.99998474121094,
-  "y": 225,
-  "script": [],
+  "x": 232,
+  "y": 104,
+  "script": [
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "right"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": true
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "aa668541-f7e7-46c4-bedf-89c0e93f01fa",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "right",
+              "fadeSpeed": "2"
+            },
+            "id": "f4ab9016-d55f-40de-ae41-9a2509fb6b40"
+          }
+        ]
+      },
+      "id": "8d3de7d0-dac1-4edc-8098-9d34f6873ede"
+    },
+    {
+      "command": "EVENT_SET_INPUT_SCRIPT",
+      "args": {
+        "input": [
+          "left"
+        ],
+        "override": true,
+        "__scriptTabs": "press",
+        "__collapse": false
+      },
+      "children": {
+        "true": [
+          {
+            "command": "EVENT_SWITCH_SCENE",
+            "args": {
+              "sceneId": "e12c54ff-2499-413e-9128-97bc8293aa9e",
+              "x": {
+                "type": "number",
+                "value": 0
+              },
+              "y": {
+                "type": "number",
+                "value": 0
+              },
+              "direction": "left",
+              "fadeSpeed": 2
+            },
+            "id": "abd49b79-ebde-4fd6-882f-eaa891f3d169"
+          }
+        ]
+      },
+      "id": "e615084a-0946-476f-9cb9-341f00a25168"
+    }
+  ],
   "playerHit1Script": [],
   "playerHit2Script": [],
   "playerHit3Script": []
