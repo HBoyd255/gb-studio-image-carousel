@@ -1,0 +1,13 @@
+{
+  "_resourceType": "background",
+  "id": "377bf283-c73a-4339-bfd0-94438fb12b24",
+  "name": "DevSocLogo",
+  "symbol": "devsoclogo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "DevSocLogo.png",
+  "tileColors": "",
+  "autoColor": false
+}
