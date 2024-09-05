@@ -1,0 +1,12 @@
+{
+  "_resourceType": "background",
+  "id": "e878b622-2ade-495c-a2a4-babae6d755dd",
+  "name": "YESLogo",
+  "symbol": "bg_yeslogo",
+  "width": 20,
+  "height": 18,
+  "imageWidth": 160,
+  "imageHeight": 144,
+  "filename": "YESLogo.png",
+  "tileColors": ""
+}
