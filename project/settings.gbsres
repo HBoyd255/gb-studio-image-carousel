@@ -50,36 +50,28 @@
   "customColorsDark": "509878",
   "customColorsBlack": "202850",
   "customControlsUp": [
-    "ArrowUp",
-    "w"
+    "ArrowUp"
   ],
   "customControlsDown": [
-    "ArrowDown",
-    "s"
+    "ArrowDown"
   ],
   "customControlsLeft": [
-    "ArrowLeft",
-    "a"
+    "ArrowLeft"
   ],
   "customControlsRight": [
-    "ArrowRight",
-    "d"
+    "ArrowRight"
   ],
   "customControlsA": [
-    "Alt",
-    "z",
-    "j"
+    "Control"
   ],
   "customControlsB": [
-    "Control",
-    "k",
-    "x"
+    "Alt"
   ],
   "customControlsStart": [
     "Enter"
   ],
   "customControlsSelect": [
-    "Shift"
+    "Escape"
   ],
   "colorMode": "mono",
   "generateDebugFilesEnabled": false,
